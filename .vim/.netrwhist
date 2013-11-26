@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/brian/.rvm/gems/ruby-1.9.2-p180/gems/harvested-0.4.0/lib'
+let g:netrw_dirhist_2='/Users/brian/twibot/migrations'
+let g:netrw_dirhist_3='/Users/brian/.oh-my-zsh'
