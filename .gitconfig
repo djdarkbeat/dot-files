@@ -1,0 +1,30 @@
+[user]
+	name = Brian Loomis
+	email = brian@customated.com
+[alias]
+	co = checkout
+	cam = commit -a -m
+	cm = commit -m
+	s = status
+	puso = push origin
+	b = branch
+	a = add .
+	au = add -u
+	pulo = pull origin
+[apply]
+	whitespace = nowarn
+[color]
+	ui = auto
+	branch = auto
+	status = auto
+	diff = auto
+[core]
+	excludesfile = /Users/brian/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[mergetool]
+	keepBackup = true
