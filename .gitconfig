@@ -2,3 +2,6 @@
 	diff = auto
 	status = auto
 	branch = auto
+[user]
+	name = Brian Loomis
+	email = brian@customated.com
