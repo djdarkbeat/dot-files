@@ -17,11 +17,11 @@
 $
 
 # Command Line History (newest to oldest):
+:x
 :q
 :w
 :i
 :set nu
-:x
 :q!
 :%s/zip
 :215
@@ -1086,18 +1086,20 @@ $
 # global variables:
 
 # File marks:
-'0  8  15  ~/Sites/cds-parser/cleanup.rb
-'1  12  19  ~/Sites/cds-parser/cleanup.rb
-'2  13  3  ~/Sites/cds-parser/cleanup.rb
-'3  11  10  ~/Sites/cds-parser/cleanup.rb
-'4  4  11  ~/.ssh/config
-'5  241  0  ~/Sites/cds-parser/models/locomotive.rb
-'6  36  11  ~/Sites/cds-cms/.gitignore
-'7  56  6  ~/.zshrc
-'8  1  32  ~/Sites/cds-cms/.rvmrc
-'9  35  0  ~/Sites/cds-cms/.gitignore
+'0  13  28  ~/.tmux.conf
+'1  8  15  ~/Sites/cds-parser/cleanup.rb
+'2  12  19  ~/Sites/cds-parser/cleanup.rb
+'3  13  3  ~/Sites/cds-parser/cleanup.rb
+'4  11  10  ~/Sites/cds-parser/cleanup.rb
+'5  4  11  ~/.ssh/config
+'6  241  0  ~/Sites/cds-parser/models/locomotive.rb
+'7  36  11  ~/Sites/cds-cms/.gitignore
+'8  56  6  ~/.zshrc
+'9  1  32  ~/Sites/cds-cms/.rvmrc
 
 # Jumplist (newest first):
+-'  13  28  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
 -'  8  15  ~/Sites/cds-parser/cleanup.rb
 -'  6  5417  ~/Sites/cds-parser/cleanup.rb
 -'  1  0  ~/Sites/cds-parser/cleanup.rb
@@ -1195,8 +1197,15 @@ $
 -'  203  5  ~/Sites/scrubs/pages/subcats.page.lasso
 -'  173  5  ~/Sites/scrubs/pages/subcats.page.lasso
 -'  144  5  ~/Sites/scrubs/pages/subcats.page.lasso
+-'  8  15  ~/Sites/cds-parser/cleanup.rb
 
 # History of marks within files (newest to oldest):
+
+> ~/.tmux.conf
+	"	13	28
+	^	13	29
+	.	13	0
+	+	13	0
 
 > ~/Sites/cds-parser/cleanup.rb
 	"	8	15
@@ -2800,6 +2809,3 @@ $
 	^	1	12
 	.	1	0
 	+	1	0
-
-> ~/Sites/scrubs/clientip.lasso
-	"	1	0
