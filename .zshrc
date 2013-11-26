@@ -1,6 +1,3 @@
-# Path to your oh-my-zsh configuration.
-alias start_mysql="/Library/StartupItems/MySQLCOM/MySQLCOM start"
-alias stop_mysql="/Library/StartupItems/MySQLCOM/MySQLCOM stop"
 PATH=$PATH:/usr/local/bin:/opt/local/bin:/usr/bin:/usr/sbin:/usr/local/mysql:/usr/local/mysql/bin:/usr/local/git:/usr/local/share/npm/bin
 ZSH=$HOME/.oh-my-zsh
 
