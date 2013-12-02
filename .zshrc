@@ -54,3 +54,6 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+if test -f ~/.rvm/scripts/rvm; then
+  [ "$(type rvm)" = "function" ] || source ~/.rvm/scripts/rvm
+fi

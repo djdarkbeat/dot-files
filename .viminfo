@@ -18,10 +18,10 @@ $
 
 # Command Line History (newest to oldest):
 :x
+:set nu
 :q
 :w
 :i
-:set nu
 :q!
 :%s/zip
 :215
@@ -1086,18 +1086,27 @@ $
 # global variables:
 
 # File marks:
-'0  13  28  ~/.tmux.conf
-'1  8  15  ~/Sites/cds-parser/cleanup.rb
-'2  12  19  ~/Sites/cds-parser/cleanup.rb
-'3  13  3  ~/Sites/cds-parser/cleanup.rb
-'4  11  10  ~/Sites/cds-parser/cleanup.rb
-'5  4  11  ~/.ssh/config
-'6  241  0  ~/Sites/cds-parser/models/locomotive.rb
-'7  36  11  ~/Sites/cds-cms/.gitignore
-'8  56  6  ~/.zshrc
-'9  1  32  ~/Sites/cds-cms/.rvmrc
+'0  21  24  ~/.vimrc
+'1  58  10  ~/.zshrc
+'2  59  0  ~/.zshrc
+'3  3  0  ~/.bash_login
+'4  1  0  ~/.bash_lo
+'5  13  28  ~/.tmux.conf
+'6  8  15  ~/Sites/cds-parser/cleanup.rb
+'7  12  19  ~/Sites/cds-parser/cleanup.rb
+'8  13  3  ~/Sites/cds-parser/cleanup.rb
+'9  11  10  ~/Sites/cds-parser/cleanup.rb
 
 # Jumplist (newest first):
+-'  21  24  ~/.vimrc
+-'  4  9  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  58  10  ~/.zshrc
+-'  1  0  ~/.zshrc
+-'  59  0  ~/.zshrc
+-'  3  0  ~/.bash_login
+-'  1  0  ~/.bash_login
+-'  1  0  ~/.bash_lo
 -'  13  28  ~/.tmux.conf
 -'  1  0  ~/.tmux.conf
 -'  8  15  ~/Sites/cds-parser/cleanup.rb
@@ -1113,7 +1122,6 @@ $
 -'  36  11  ~/Sites/cds-cms/.gitignore
 -'  1  0  ~/Sites/cds-cms/.gitignore
 -'  56  6  ~/.zshrc
--'  1  0  ~/.zshrc
 -'  1  32  ~/Sites/cds-cms/.rvmrc
 -'  35  0  ~/Sites/cds-cms/.gitignore
 -'  2  0  ~/Desktop/application.yml
@@ -1190,16 +1198,53 @@ $
 -'  173  5  ~/Sites/scrubs/pages/subcats.page.lasso
 -'  144  5  ~/Sites/scrubs/pages/subcats.page.lasso
 -'  1  0  ~/Sites/scrubs/pages/subcats.page.lasso
--'  116  5  ~/Sites/scrubs/pages/subcats.page.lasso
--'  89  5  ~/Sites/scrubs/pages/subcats.page.lasso
--'  63  5  ~/Sites/scrubs/pages/subcats.page.lasso
--'  233  5  ~/Sites/scrubs/pages/subcats.page.lasso
--'  203  5  ~/Sites/scrubs/pages/subcats.page.lasso
--'  173  5  ~/Sites/scrubs/pages/subcats.page.lasso
--'  144  5  ~/Sites/scrubs/pages/subcats.page.lasso
--'  8  15  ~/Sites/cds-parser/cleanup.rb
 
 # History of marks within files (newest to oldest):
+
+> ~/.vimrc
+	"	21	24
+	^	4	10
+	.	4	9
+	+	21	0
+	+	9	19
+	+	19	0
+	+	7	0
+	+	7	0
+	+	7	5
+	+	7	0
+	+	23	52
+	+	23	0
+	+	4	9
+
+> ~/.zshrc
+	"	58	10
+	^	58	11
+	.	58	10
+	+	12	16
+	+	20	25
+	+	24	0
+	+	12	16
+	+	18	26
+	+	6	0
+	+	2	65
+	+	4	100
+	+	4	16
+	+	4	136
+	+	4	76
+	+	56	64
+	+	59	0
+	+	58	0
+	+	59	0
+	+	58	10
+
+> ~/.bash_login
+	"	3	0
+	^	3	0
+	.	2	50
+	+	2	50
+
+> ~/.bash_lo
+	"	1	0
 
 > ~/.tmux.conf
 	"	13	28
@@ -1297,23 +1342,6 @@ $
 	.	36	5
 	+	28	16
 	+	36	5
-
-> ~/.zshrc
-	"	56	6
-	^	56	7
-	.	56	6
-	+	12	16
-	+	20	25
-	+	24	0
-	+	12	16
-	+	18	26
-	+	6	0
-	+	2	65
-	+	4	100
-	+	4	16
-	+	4	136
-	+	4	76
-	+	56	6
 
 > ~/Sites/cds-cms/.rvmrc
 	"	1	32
@@ -1482,19 +1510,6 @@ $
 
 > ~/test.txt
 	"	1	0
-
-> ~/.vimrc
-	"	21	0
-	.	22	0
-	+	20	0
-	+	8	19
-	+	18	0
-	+	6	0
-	+	6	0
-	+	6	5
-	+	6	0
-	+	22	52
-	+	22	0
 
 > ~/Audiobooks.txt
 	"	1	0
@@ -2784,28 +2799,3 @@ $
 	+	48	0
 	+	49	0
 	+	50	0
-
-> ~/Sites/scrubs/_botemail.lasso
-	"	72	0
-	^	72	2
-	.	72	1
-	+	81	0
-	+	73	0
-	+	74	0
-	+	75	0
-	+	76	0
-	+	77	0
-	+	78	0
-	+	80	0
-	+	81	0
-	+	83	0
-	+	84	0
-	+	87	0
-	+	88	0
-	+	72	1
-
-> ~/Sites/scrubs/_blockarray.lasso
-	"	1	0
-	^	1	12
-	.	1	0
-	+	1	0
